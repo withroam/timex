@@ -61,7 +61,6 @@ defmodule Timex.Mixfile do
       {:ex_doc, "~> 0.13", only: [:docs]},
       {:benchfella, "~> 0.3", only: [:bench]},
       {:dialyxir, "~> 1.0", only: [:dev], runtime: false},
-      # {:ssl_verify_fun, "~> 1.1.7", manager: :rebar3, override: true},
       {:excoveralls, "~> 0.4", only: [:test]},
       {:stream_data, "~> 0.4", only: [:test]}
     ]
